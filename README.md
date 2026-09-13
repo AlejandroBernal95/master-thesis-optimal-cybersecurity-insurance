@@ -23,7 +23,7 @@ risk-averse), the premium/elasticity calculations, and the plotting code.
 | `premiums.py` | Gordon-Loeb security breach probability, and premium/elasticity calculations (Standard Deviation Principle / Variance Principle) for Lomax and Lognormal loss severities. |
 | `pide_common.py` | Shared numerical utilities (Jacobian sparsity pattern, solver progress logging) used by both PIDE solvers. |
 | `pide_risk_neutral.py` | Risk-neutral HJB-PIDE, under Hawkes and Poisson dynamics, plus the optimal coinsurance/investment extraction. |
-| `pide_risk_averse.py` | CARA risk-averse HJB-PIDE (certainty equivalent $W$), including the auxiliary $Q$/$M$ bounds used for numerical stability. |
+| `pide_risk_averse.py` | CARA risk-averse HJB-PIDE (certainty equivalent $W$), including the auxiliary $Q$, $M$ bounds used for numerical stability. |
 | `validation.py` | Independent verification of the risk-neutral optimal control, by two methods that never touch the PIDE machinery: a static-control benchmark (direct numerical re-optimization) and closed-loop ODE evaluation under Poisson dynamics. |
 | `plotting.py` | All figures used in the thesis: value functions, optimal control surfaces, insurance decision maps, premium comparisons, Hawkes-vs-Poisson gain plots. |
 | `discarded_experiments.py` | Functional but unused code: an earlier Pareto Type I loss severity (superseded by Lomax/Lognormal) and an earlier Poisson-only decision framework, kept for reference rather than deleted. |
