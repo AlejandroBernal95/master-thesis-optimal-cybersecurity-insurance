@@ -1,5 +1,8 @@
 # Cyber-Insurance and Security Investment under Hawkes Attack Processes
 
+**Francisco Alejandro Bernal Cañez** — Master's Thesis in Data Science,
+Università degli Studi di Padova, 2026.
+
 Code accompanying my Master's thesis in Data Science, on optimal cybersecurity
 investment and cyber-insurance design when cyberattacks arrive according to a
 **Hawkes self-exciting process** rather than a standard Poisson process. The
@@ -54,5 +57,15 @@ don't re-solve from scratch, and saves all generated figures to
 
 If you use this code, please cite the thesis:
 
-> [Author name], *Cyber-Insurance and Security Investment under Hawkes
-> Attack Processes*, Master's Thesis, [University], [Year].
+> Bernal Cañez, Francisco Alejandro. *Cyber-Insurance and Security Investment
+> under Hawkes Attack Processes*. Master's Thesis, Università degli Studi di
+> Padova, 2026.
+
+```bibtex
+@mastersthesis{bernalcanez2026cyberinsurance,
+  author = {Bernal Cañez, Francisco Alejandro},
+  title  = {Cyber-Insurance and Security Investment under Hawkes Attack Processes},
+  school = {Università degli Studi di Padova},
+  year   = {2026}
+}
+```
